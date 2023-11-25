@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student details Object</h1>
+    <h1 style="color: red;">Please Open Console>>>></h1>
+</body>
+</html>
+
+
+
+
+
+
+<script>
+    function Studentdetails(name, roll_no, classs, section, science, maths, social_science, english, hindi){
+        this.name = name;
+        this.roll_no = roll_no;
+        this.classs = classs;
+        this.section = section;
+        this.science = science;
+        this.maths = maths; 
+        this.social_science = social_science;
+        this.english = english;
+        this.hindi = hindi;
+        
+ }
+
+   let st1 = new Studentdetails("poonam", 74757, 10, "A", 55, 77, 88, 44, 66);
+   console.log(st1);
+
+   let st2 = new Studentdetails("Rahul", 74757, 10, "A", 78, 45, 87, 65, 77);
+   console.log(st2);
+
+   let st3 = new Studentdetails("Diya", 74757, 10, "A", 76, 78, 58, 97, 74);
+   console.log(st3);
+
+
+</script>
